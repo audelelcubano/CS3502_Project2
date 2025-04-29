@@ -21,3 +21,11 @@ The project tracks performance metrics including:
 ```bash
 g++ -o cpu_scheduler cpu_scheduler.cpp
 ./cpu_scheduler
+## How to Test the Scheduler
+1. Compile and run the program.
+2. Enter the number of processes (example: 3).
+3. Enter arrival time and burst time for each process.
+4. Choose a scheduling algorithm:
+   - 1 for Shortest Remaining Time First (SRTF)
+   - 2 for Highest Response Ratio Next (HRRN)
+5. Review the Gantt chart and performance metrics displayed in the console.
